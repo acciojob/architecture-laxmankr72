@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Webpage</title>
+    <style>
+        body {
+            width: 1100px;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        .imageContainer {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<div class="imageContainer">
-    <img src="your-image-link.jpg" alt="Description of image">
-	</div>
-	<table border=1>
-    <tr>
-       
-        <th style="width: 200px;">First Column</th>
-        <th style="width: 600px;">Middle Column</th>
-        <th style="width: 200px;">Last Column</th>
-    </tr>
-    <tr>
-       
-        <td><img src="image1-link.jpg" alt="Image 1"></td>
-        <td>Your text here</td>
-        <td><img src="image2-link.jpg" alt="Image 2"></td>
-    </tr>
-    <!-- Add more rows as needed -->
-</table>
-	
-    <script type="text/javascript" src="./script.js">
+    <h1>Architecture Webpage</h1>
+    <div class="imageContainer">
+        <img src="your-image-link.jpg" alt="Architecture Image" style="max-width: 100%;">
+    </div>
+    <table>
+        <tr>
+            <th>Row</th>
+            <th style="width: 200px;">First Column</th>
+            <th style="width: 600px;">Middle Column</th>
+            <th style="width: 200px;">Last Column</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><img src="image1-link.jpg" alt="Image 1" style="width: 100%;"></td>
+            <td>Your text here</td>
+            <td><img src="image2-link.jpg" alt="Image 2" style="width: 100%;"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><img src="image3-link.jpg" alt="Image 3" style="width: 100%;"></td>
+            <td>Your text here</td>
+            <td><img src="image4-link.jpg" alt="Image 4" style="width: 100%;"></td>
+        </tr>
+    </table>
+	<script type="text/javascript" src="./script.js">
 </script>
-
 </body>
-
 </html>
